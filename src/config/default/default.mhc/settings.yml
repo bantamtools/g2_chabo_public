@@ -1,0 +1,14 @@
+configName: default
+folderName: bbu_fw_rebuild2
+format_version: v1.0
+frameworkPath: ../../Harmony3
+processor: ATSAMS70N20B
+projectName: bbu_fw_rebuild2
+settings:
+  PackageFilter: bootloader;bootloader_apps_usb;bsp;core;core_apps_sam_d20;core_apps_sam_d21_da1;core_apps_sam_d5x_e5x;core_apps_sam_e70_s70_v70_v71;crypto;csp;csp_apps_sam_d20;csp_apps_sam_d21_da1;csp_apps_sam_d5x_e5x;csp_apps_sam_e70_s70_v70_v71;dev_packs;harmony-services;net;quick_docs;usb;usb_apps_device
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: .\dev_packs\Microchip\SAMS70_DFP\4.6.82\sams70b\atdf\ATSAMS70N20B.atdf
